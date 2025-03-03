@@ -1,11 +1,12 @@
 import './layout.scss'
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="layout">
-      Hello World
+      <Navbar />
     </div>
   )
 }
 
-export default App
+export default App;
